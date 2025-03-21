@@ -20,6 +20,7 @@ import {
 } from '@/common/helpers';
 
 export async function GET(req: Request, res: Response) {
+    console.log('EHUIWEHUEIRREHIUW')
     if (req.method !== 'GET') {
         return new Response(JSON.stringify({ error: 'Expected GET.' }), { status: 405 });
     }
