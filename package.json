@@ -13,9 +13,13 @@
     "preview_image_url": "https://imagedelivery.net/wSMYJvS3Xw-n339CbDyDIA/e42eec61-db86-49c8-7b29-c3ed4783e400/public"
   },
   "dependencies": {
+    "form-data": "^4.0.2",
+    "mime": "^4.0.6",
     "next": "14.2.23",
+    "nullthrows": "^1.1.1",
     "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "react-dom": "18.3.1",
+    "structured-headers": "^2.0.0"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20250204.0",
