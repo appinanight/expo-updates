@@ -1,4 +1,4 @@
-export const runtime = "edge"
+export const runtime = "nodejs";
 
 import fs from 'fs';
 import fsPromises from 'fs/promises';
