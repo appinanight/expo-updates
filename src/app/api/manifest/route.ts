@@ -1,6 +1,4 @@
-export const config = {
-    runtime: 'edge', // Ensure this is included
-};
+export const runtime = "edge"
 
 import FormData from 'form-data';
 import fs from 'fs/promises';

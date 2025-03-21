@@ -1,6 +1,4 @@
-export const config = {
-    runtime: 'edge', // Ensure this is included
-};
+export const runtime = "edge"
 
 import fs from 'fs';
 import fsPromises from 'fs/promises';
