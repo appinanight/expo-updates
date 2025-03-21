@@ -21,6 +21,8 @@ import {
 
 export async function GET(req: Request, res: Response) {
     console.log('EHUIWEHUEIRREHIUW')
+    return new Response(JSON.stringify({ message: 'jahoee.' }), { status: 200 });
+
     if (req.method !== 'GET') {
         return new Response(JSON.stringify({ error: 'Expected GET.' }), { status: 405 });
     }
